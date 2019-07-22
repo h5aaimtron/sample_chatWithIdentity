@@ -1,6 +1,6 @@
 # Sample Chat With Identity
 
-This project includes a sample SignalR server implementation with identity configured (JWT) as well as an Angular 7 client application in their respective folders. Requires some basic configuration such as the appsettings.json, setting yoru database connection string, generating your own secret key.
+This project includes a sample SignalR server implementation with identity configured (JWT) as well as an Angular 7 client application in their respective folders. Requires some basic configuration such as the appsettings.json, setting your database connection string, generating your own secret key.
 
 # .NET Core Notes
 
