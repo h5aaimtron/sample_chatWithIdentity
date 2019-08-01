@@ -10,6 +10,7 @@
       <div class="modal-body">
         <div class="row">
           <div class="col-lg-12">
+            <span *ngIf="errorMessage.length > 0" class="text-danger">{{errorMessage}}</span>
             <form name="registrationForm" novalidate>
               <div class="form-group">
                 <label>User Name <small class="text-danger"
