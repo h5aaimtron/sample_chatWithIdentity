@@ -8,6 +8,8 @@ Developed using .NET Core SDK 3.0.100-preview6-012264. Contains a basic SignalR 
 
 ## Development server
 
+You must provide a valid SQL or SQL Express connection string in the appsettings.json for the backing api. This database is where identity will generate the necessary tables and store accounts.
+
 Run `dotnet run` from the command line or load and run in Visual Studio 2019+.
 
 
