@@ -74,7 +74,7 @@ namespace AuthorizationSample.Controllers
                 // Get user if they exist. If not, obfuscate the fact they don't exist. 
                 var user = _userManager.Users.Where(x => x.UserName == model.UserName).FirstOrDefault();
                 if (user == null)
-                    return NoContent();
+                    return NotFound();
 
                 // Check their password. If not correct, send them unauthorized message.
                 var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
